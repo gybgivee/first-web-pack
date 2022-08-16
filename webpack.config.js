@@ -1,5 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-
+//use=> run from right to left , order is important! because we need css loader before style loader
 module.exports = {
   module: {
     rules: [
